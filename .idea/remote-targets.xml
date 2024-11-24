@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="deviljin@192.168.0.109:22" type="ssh/sftp" uuid="556c0f8c-dbf2-40df-a1bd-7b50ce2c2048">
+        <config>
+          <option name="projectRootOnTarget" value="/home/deviljin/go-book-store" />
+          <option name="serverName" value="deviljin@192.168.0.109:22 password" />
+        </config>
+        <ContributedStateBase type="GoLanguageRuntime">
+          <config>
+            <option name="goPath" value="/home/deviljin/go" />
+            <option name="goRoot" value="/usr/local/go/bin/go" />
+            <option name="goVersion" value="go1.23.3 linux/amd64" />
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>

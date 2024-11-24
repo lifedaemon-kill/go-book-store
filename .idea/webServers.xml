@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7de8716d-df6f-4c48-ab75-5fc504d4e681" name="ubuntu_postgre">
+        <fileTransfer rootFolder="/home/deviljin" accessType="SFTP" host="192.168.0.109" port="22" sshConfigId="5b8c8a6d-c6f7-4efd-bae8-565cae31d437" sshConfig="deviljin@192.168.0.109:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" connections="3" passiveMode="true" shareSSLContext="true" isUseSudo="true" />
+          </advancedOptions>
+        </fileTransfer>
+        <option name="numberOfConnections" value="3" />
+      </webServer>
+    </option>
+  </component>
+</project>
