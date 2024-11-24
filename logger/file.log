@@ -1,0 +1,7 @@
+time="2024-11-24T11:15:05+09:00" level=info msg="Updated book 1984"
+time="2024-11-24T11:15:24+09:00" level=info msg="Fetched books"
+time="2024-11-24T11:17:19+09:00" level=info msg="Fetched book The Picture of Dorian Gray"
+time="2024-11-24T11:17:58+09:00" level=info msg="Fetched book Cloud in pants"
+time="2024-11-24T11:18:04+09:00" level=info msg="Fetched books"
+time="2024-11-24T11:18:39+09:00" level=info msg="Updated book Cloud in pants"
+time="2024-11-24T11:20:27+09:00" level=info msg="Deleted book 1984"
