@@ -7,8 +7,8 @@ import (
 	"github.com/swaggo/gin-swagger"
 	"go-book-store/db"
 	_ "go-book-store/docs"
+	"go-book-store/handlers"
 	"go-book-store/logger"
-	"go-book-store/pkg"
 )
 
 // @title Book API
@@ -38,11 +38,11 @@ func main() {
 	r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
 
 	// Routes
-	r.POST("/books/", pkg.CreateBook)
-	r.GET("/books/", pkg.GetBooks)
-	r.GET("/books/:book_id", pkg.GetBookById)
-	r.PUT("/books/:book_id", pkg.UpdateBook)
-	r.DELETE("/books/:book_id", pkg.DeleteBook)
+	r.POST("/books/", handlers.CreateBook)
+	r.GET("/books/", handlers.GetBooks)
+	r.GET("/books/:book_id", handlers.GetBookById)
+	r.PUT("/books/:book_id", handlers.UpdateBook)
+	r.DELETE("/books/:book_id", handlers.DeleteBook)
 
 	//Start server
 	err = r.Run(":8080")
